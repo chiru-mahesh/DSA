@@ -1,0 +1,14 @@
+time complexity
+
+
+n-> n/2->
+o(log n)
+def expo(a,b):
+if b==0:
+    return 1
+elif b%2==0:
+    return expo(a,b//2)**2
+else:
+    return a*expo(a,b-1)
+expo(2,10) ->1024
+o(n2)

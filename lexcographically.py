@@ -1,0 +1,9 @@
+'''program to find the smallest word lexcographically from the given list of words'''
+
+
+words=input("Enter words:").split()
+min_word= words[0]
+for word in words:
+    if word<min_word:
+        min_word=word
+print("smallest word is:",min_word)        

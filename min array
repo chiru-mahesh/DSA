@@ -1,0 +1,8 @@
+'''min array'''
+
+arr=list(map(int,input("Enter the numbers:").split()))  # 1 2 3 4
+min_value= arr[0]
+for i in arr:
+    if i<min_value:
+        min_value=i
+print(min_value)        
